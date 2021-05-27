@@ -18,6 +18,7 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
+		font-family: SF-Pro , Helvetica , "微软雅黑";
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -8421,3 +8422,20 @@
 .text-contend {
 	 text-indent:2em;
 }
+/* 标题加粗 */
+.text-title {
+	font-weight: bold;
+}
+
+/* 定义字体 */
+@font-face{
+	font-family: Helvetica;
+	src: url("./asset/fonts/others/Helvetica.ttf");
+  }
+
+/* 定义字体 */
+@font-face{
+	font-family: SF-Pro;
+	src: url("./asset/fonts/others/SF-Pro-Text-Bold.otf");
+	src: url("./asset/fonts/others/SF-Pro-Text-Regular.otf");
+  }
