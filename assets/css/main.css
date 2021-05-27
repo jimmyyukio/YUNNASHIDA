@@ -1,5 +1,7 @@
-@import url(font-awesome.min.css);
+@import url(font-awesome.css);
+/*引入font-awesome离线图标库*/
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i");
+/* 将 Google 材料图标库用于我们的网页 */
 
 /*
 	Story by HTML5 UP
