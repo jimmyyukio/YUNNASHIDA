@@ -15,7 +15,8 @@
 	</head>
 	<body>
 		<div style="position: fixed; top: 20px; left: 20px;">
-			<audio autoplay="autoplay" controls="controls"loop="loop" preload="auto" src="./assets/music/铃羽.mp3" id="VD">
+			<audio autoplay="autoplay" loop="loop" preload="auto" src="./assets/music/铃羽.mp3" id="VD">
+				<!-- controls="controls" 显示控件 -->
   				你的浏览器不支持audio标签
 			</audio>
 		</div>
@@ -287,7 +288,7 @@
 		<!-- Note: Only needed for demo purposes. Delete for production sites. -->
 			<script src="assets/js/demo.js"></script>
 
-			<!-- <script type="text/javascript">
+			<script type="text/javascript">
 				window.onload = function(){
 						 setInterval("toggleSound()",100);
 					}
@@ -300,6 +301,6 @@
 								music.play(); //没有就播放 
 							}    
 					}
-			</script> -->
+			</script>
 	</body>
 </html>
