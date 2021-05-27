@@ -14,9 +14,11 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
 	<body>
-		<audio autoplay="autoplay" controls="controls"loop="loop" preload="auto" src="./assets/music/铃羽.mp3" id="VD">
-  		你的浏览器不支持audio标签
-		</audio>
+		<div style="position: fixed; top: 20px; left: 20px;">
+			<audio autoplay="autoplay" controls="controls"loop="loop" preload="auto" src="./assets/music/铃羽.mp3" id="VD">
+  				你的浏览器不支持audio标签
+			</audio>
+		</div>
 		<!-- Wrapper -->
 			<div id="wrapper" class="divided">
 
@@ -285,7 +287,7 @@
 		<!-- Note: Only needed for demo purposes. Delete for production sites. -->
 			<script src="assets/js/demo.js"></script>
 
-			<script type="text/javascript">
+			<!-- <script type="text/javascript">
 				window.onload = function(){
 						 setInterval("toggleSound()",100);
 					}
@@ -298,6 +300,6 @@
 								music.play(); //没有就播放 
 							}    
 					}
-			</script>
+			</script> -->
 	</body>
 </html>
