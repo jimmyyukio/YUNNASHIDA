@@ -20,7 +20,9 @@
 
 	<!-- <embed height="100" width="800" src="./assets/music/铃羽.mp3" /> -->
 	<div style="position: fixed; bottom: 20px; left: 20px;">
-		<audio autoplay="autoplay" loop="loop" preload="auto" src="./assets/music/铃羽.mp3" id="VD" controls="controls">
+		<audio autoplay="autoplay" loop="loop" preload="auto" id="VD" controls="controls">
+			<source src="./assets/music/铃羽.mp3" type="audio/mp3">
+			<source src="./assets/music/good bye, again and again.mp3" type="audio/mp3">
 			你的浏览器不支持audio标签
 		</audio>
 	</div>
@@ -307,7 +309,9 @@
 				<script src="assets/js/main.js"></script>
 
 				<!-- Note: Only needed for demo purposes. Delete for production sites. -->
-				<script src="assets/js/demo.js"></script>
+
+				<!-- 点击页面自动播放 -->
+				<!-- <script src="assets/js/demo.js"></script>
 
 				<script type="text/javascript">
 					window.onload = function () {
@@ -322,7 +326,7 @@
 							music.play(); //没有就播放
 						}
 					}
-				</script>
+				</script> -->
 </body>
 
 </html>
